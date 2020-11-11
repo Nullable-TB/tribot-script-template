@@ -31,13 +31,8 @@ repositories {
 }
 
 dependencies {
+    api(files("${projectDir}/allatori-annotations-7.5.jar"))
     api("org.tribot:tribot-client:+")
-    api("com.google.code.gson:gson:2.8.6")
-    api("com.jfoenix:jfoenix:9.0.10")
-    api("com.squareup.okhttp3:okhttp:4.6.0")
-    api("commons-io:commons-io:2.6")
-    api("org.apache.commons:commons-collections4:4.2")
-    api("org.apache.commons:commons-lang3:3.8")
 }
 
 sourceSets {
